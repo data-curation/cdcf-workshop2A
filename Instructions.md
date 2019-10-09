@@ -87,7 +87,8 @@ Using Markdown in Github lets you create readme files that can use better format
 Notes 
 
 When a repo is cloned, it has a default remote called origin that points to your fork on GitHub, not the original repo it was forked from
-
+[What is Github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 OpenRefine is an open source project that is developed in a [github repository](https://github.com/OpenRefine/OpenRefine). 
+[Installing GitHub Desktop](https://www.techrepublic.com/article/how-to-install-github-desktop/)
 
 We're all working on 
