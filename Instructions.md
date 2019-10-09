@@ -76,6 +76,13 @@ Using Markdown in Github lets you create readme files that can use better format
 2. Commit your changes and enjoy the products of your hard work!
 
 
+### Configuring Github desktop
+- Install Github desktop 
+- Once installed, click the gear button and select **Options**
+  - Under *Accounts*, add your GitHub account 
+  - Under *Configure git*, add the name and email address that you want associated with your changes
+  - Under *Clone path*, enter the path to the default directory where you would like to create or clone repositories (e.g. D:\Local). If you have existing repositories in the default directory, cick *Scan for Repositories*. 
+  - In Default shell, select **Git Bash** for the purposes of this tutorial.
 
 Notes 
 
