@@ -1,9 +1,21 @@
 ## Introduction
 
 ## Step 0: Pre-event prepartion
+### 0.1: Install git version control software
+- Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system
+  - For Windows, use [this download link](https://git-scm.com/download/win) and install using all of the default (recommended) options.
+  
+ 
+
 - Navigate to [Github](https://github.com) and sign up for an account (if you don't already have one). 
 - After registering, sign in to your account.
 - Watch the short introductory video[What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E).
+- If using a Windows or Mac, download and install [GitHub Desktop](https://desktop.github.com/)
+  - More guidance can be found in guides from [GitHub](https://help.github.com/en/desktop/getting-started-with-github-desktop) and [TechRepublic](https://www.techrepublic.com/article/how-to-install-github-desktop/).
+  - Sign into GitHub Desktop using your GitHub credentials
+  - In the *Configure Git* page, enter the name and email address that you want associated with your changes
+  - 
+
 
 
 ## Step 1: Forking a repository
