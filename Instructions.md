@@ -14,7 +14,8 @@
   - In the *Configure Git* page, enter the name and email address that you want associated with your changes
   - In File > Options > Advanced, set the Shell to Git Bash
 - (optional) Once configured, the main GitHub Desktop page will show any repositories that exist in your GitHub account. For those who use git already, you can add any local repositories that already exist on your machine.
-
+### 0.3 Install Openrefine
+- Navigate to [this setup page](https://datacarpentry.org/openrefine-socialsci/setup.html) and follow instructions for installing the Openrefine software. **NOTE** that you do not need to download the data file, as we'll be retrieving it in the workshop session using GitHub.
 
 ## Step 1: Forking a GitHub repository
 In this step, you will 'fork' an existing (original) GitHub repository (belonging to someone else) to create a branch repository in your GitHub account. This allows you to create a copy of the original repository that you can modify as desired...and perhaps, allow your changes to be merged back 'upstream' to the original repository. 
