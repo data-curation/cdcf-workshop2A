@@ -4,9 +4,7 @@
 ### 0.1: Install git version control software
 - Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system
   - For Windows, use [this download link](https://git-scm.com/download/win) and install using all of the default (recommended) options.
-  
- 
-
+### 0.2: Install and configure GitHub Desktop
 - Navigate to [Github](https://github.com) and sign up for an account (if you don't already have one). 
 - After registering, sign in to your account.
 - Watch the short introductory video[What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E).
@@ -14,16 +12,19 @@
   - More guidance can be found in guides from [GitHub](https://help.github.com/en/desktop/getting-started-with-github-desktop) and [TechRepublic](https://www.techrepublic.com/article/how-to-install-github-desktop/).
   - Sign into GitHub Desktop using your GitHub credentials
   - In the *Configure Git* page, enter the name and email address that you want associated with your changes
-  - 
+  - In File > Options > Advanced, set the Shell to Git Bash
+- (optional) Once configured, the main GitHub Desktop page will show any repositories that exist in your GitHub account. For those who use git already, you can add any local repositories that already exist on your machine.
 
 
+## Step 1: Forking a GitHub repository
+In this step, you will 'fork' an existing (original) GitHub repository (belonging to someone else) to create a branch repository in your GitHub account. This allows you to create a copy of the original repository that you can modify as desired...and perhaps, allow your changes to be merged back 'upstream' to the original repository. 
 
-## Step 1: Forking a repository
-In this step, we want to 
+- Ensure that you are logged into your GitHub account.
+- Navigate to the workshop GitHub repository [https://github.com/data-curation/cdcf-workshop2A](https://github.com/data-curation/cdcf-workshop2A). 
+- Click the **Fork** button at the top of the repository--this will "fork" the repository and create a branch in your GitHub account. By default, it will use a similar URL naming convention to the original (i.e. https://github.com/<yourUsername>/cdcf-workshop2A).
 
-- Navigate to the workshop github repository [https://github.com/data-curation/cdcf-workshop2A](https://github.com/data-curation/cdcf-workshop2A)
+## Step 2: Clone to your local computer
 
-- Click the **Fork** button at the top of the repository--this will "fork" the repository and create a new branch of it in your github account (https://github.com/<yourUsername>/cdcf-workshop2A)
 
 ## C. Introduction to [git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and Github
 ### C1. Setting up your git account ([git documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)):
