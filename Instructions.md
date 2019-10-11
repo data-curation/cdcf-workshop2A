@@ -30,10 +30,21 @@ In this next step, you will 'clone' your GitHub repository to your local compute
 - Your newly forked repository should appear in the 'Your repositories' list in GitHub Desktop (You may need to refresh the list for it to show). 
   - **NOTE:** If it doesn't appear, double-check that the repository exists in your GitHub profile. If it does exist, you can copy the repository URL from GitHub and paste it into the appropriate place using the "Clone a repository from the Internet" button on GitHub Desktop.
 - Highlight your repository in the list and click "Clone <*repository name*>". Select the local path where you would like to download the repository--a new folder will be created with the name of the repository. 
-  
-  
-  
-- 
+## Step 3: Do things in Openrefine!
+- Once you've cloned the repository, use the button on GitHub Desktop to view the repository/files in Explorer. 
+- Proceed with the [Data Carpentries Openrefine lesson](https://datacarpentry.org/openrefine-socialsci/01-introduction/index.html), using the downloaded data.
+## Step 4: Export/Save modified data and processing script from Openrefine 
+
+## Step 5: Add and commit new files and changes to your local repository
+
+## Step 6: Push changes to your GitHub repository
+
+## Step 7: Edit your readme file in the GitHub Editor
+
+## Step 8: Pull GitHub changes to your local repository
+
+## Step 9: Make a Pull Request to the original repository
+
 
 ## C. Introduction to [git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and Github
 ### C1. Setting up your git account ([git documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)):
