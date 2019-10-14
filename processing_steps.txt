@@ -1,0 +1,344 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "interview_date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column interview_date using expression value.toDate()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "village",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ruaca",
+          "Ruca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ruaca"
+      },
+      {
+        "from": [
+          "Ruaca-Nhamuenda",
+          "Ruaca - Nhamuenda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ruaca-Nhamuenda"
+      },
+      {
+        "from": [
+          "Chirdozo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chirdozo"
+      },
+      {
+        "from": [
+          "49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "49"
+      },
+      {
+        "from": [
+          "Chirodzo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chirodzo"
+      },
+      {
+        "from": [
+          "God"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "God"
+      }
+    ],
+    "description": "Mass edit cells in column village"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "village",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chirdozo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chirodzo"
+      }
+    ],
+    "description": "Mass edit cells in column village"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "village",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ruaca-Nhamuenda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ruaca"
+      }
+    ],
+    "description": "Mass edit cells in column village"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "items_owned",
+    "expression": "grel:value.replace(\"[\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column items_owned using expression grel:value.replace(\"[\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "items_owned",
+    "expression": "grel:value.replace(\"]\",\"\");\nvalue.replace(\"'\",\"\");\nvalue.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column items_owned using expression grel:value.replace(\"]\",\"\");\nvalue.replace(\"'\",\"\");\nvalue.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "items_owned",
+    "expression": "grel:value.replace(\"'\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column items_owned using expression grel:value.replace(\"'\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "items_owned",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column items_owned using expression grel:value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "months_lack_food",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column months_lack_food using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "months_lack_food",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column months_lack_food using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "no_food_mitigation",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column no_food_mitigation using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "liv_owned",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column liv_owned using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "months_no_water",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column months_no_water using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_change",
+    "expression": "grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column res_change using expression grel:value.replace(\"[\",\"\").replace(\"]\",\"\").replace(\"'\",\"\").replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "respondent_wall_type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column respondent_wall_type using expression value.trim()"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "village",
+    "index": 61,
+    "description": "Move column village to position 61"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "village",
+    "index": 0,
+    "description": "Move column village to position 0"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "village",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chirodzo"
+      }
+    ],
+    "description": "Mass edit cells in column village"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "years_farm",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column years_farm using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "no_membrs",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column no_membrs using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "years_liv",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column years_liv using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "buildings_in_compound",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column buildings_in_compound using expression value.toNumber()"
+  }
+]
