@@ -34,15 +34,27 @@ In this next step, you will 'clone' your GitHub repository to your local compute
 - Once you've cloned the repository, use the button on GitHub Desktop to view the repository/files in Explorer. 
 - Proceed with the [Data Carpentries Openrefine lesson](https://datacarpentry.org/openrefine-socialsci/01-introduction/index.html), using the downloaded data.
 ## Step 4: Export/Save modified data and processing script from Openrefine 
-
+- Be sure to save all exported products (processing script, tar.gz project file, csv file) in the folder you cloned in Step 2.
 ## Step 5: Add and commit new files and changes to your local repository
-
+- Maximize (or reopen) GitHub Desktop and open the local repository for this workshop (\cdcf-workshop2A). 
+- The modified files will appear in the left-hand pane. Clicking on any of these files will display changes in the main pane.
+- To commit changes, add a short summary (e.g. "outputs from OpenRefine workshop") and a further description of contents and activities (if desired). Click **Commit to master**.  
 ## Step 6: Push changes to your GitHub repository
-
-## Step 7: Edit your readme file in the GitHub Editor
-
+- The repository overview page in GitHub Desktop will now display a new message: **Push 1 commit to the origin remote**. Click to push changes to the origin remote in GitHub. 
+## Step 7: View and edit your readme file in the GitHub Editor
+- Once your changes have been pushed to your remote (GitHub) repository, use your web browser to navigate to your GitHub repository. Confirm that the new files have been added to the repository along with the timestamp and summary from the commit.
+- Explore the files in your GitHub repository. View the exported csv file, which will be presented in a formatted table. 
+- View the README.md file and open it up for editing by clicking the pencil icon (*"Edit this file"*)
+  - The README file is written in [Markdown](), a lightweight markup language that allows you to use plain text and a few special characters to create formatted text. 
+  - More information and references for Markdown:
+    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
+    - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
+- Edit the readme file to include pertinent information about the repository's creation, its contents, and sharing information. An empty template has been created for you from Cornell University's [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme). Click the **Preview changes** tab to see how the Markdown will render on the web.
+- When finished editing, scroll to the bottom of the page, add a Summary and Description and commit changes to the master branch.
 ## Step 8: Pull GitHub changes to your local repository
-
+- Maximize GitHub Desktop and click "Fetch origin" near the top of the window. A new prompt should appear to *"Pull 1 commit from the origin remote"*. Click **Pull origin** to incorporate the changes into your local repository. 
+- Inspect the changes to your local repository.
 ## Step 9: Make a Pull Request to the original repository
 
 
