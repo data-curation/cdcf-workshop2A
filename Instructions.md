@@ -18,8 +18,19 @@
 - Navigate to [this setup page](https://datacarpentry.org/openrefine-socialsci/setup.html) and follow instructions for installing the Openrefine software. **NOTE** that you do not need to download the data file, as we'll be retrieving it in the workshop session using GitHub.
 
 # In-class introduction
-Follow along with the in-class introduction
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBTYQtYBdfn6CyA5Io-_UNdUNg-gN7yY8SOKESKpLOnhF2JsKyLJoslYBernz8OVcxtqpxRWi3iuRa/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+Follow along with the [in-class introduction slides](https://docs.google.com/presentation/d/e/2PACX-1vRBTYQtYBdfn6CyA5Io-_UNdUNg-gN7yY8SOKESKpLOnhF2JsKyLJoslYBernz8OVcxtqpxRWi3iuRa/pub?start=false&loop=false&delayms=60000). 
+
+# In-class activity
+During today's workshop, you will accomplish the following tasks:  
+- Use GitHub to fork someone else’s project into your own GitHub repository
+- Use GitHub Desktop (GHD) and git to clone your repository to your local computer
+- Use Openrefine to clean some messy data 
+- Edit the contents of the project locally (i.e. editing your Openrefine script(s))
+- Add and commit your changes to your local git repository
+- Push your changes from your local computer to your GitHub repository using GHD
+- Edit content (i.e. Markdown files) using the GitHub web interface
+- Pull new changes back to your local repository
+- Initiate a ‘pull request’ to the original project repository
 
 ## Step 1: Forking a GitHub repository
 In this step, you will 'fork' an existing (original) GitHub repository (belonging to someone else) to create a branch repository in your GitHub account. This allows you to create a copy of the original repository that you can modify as desired...and perhaps, allow your changes to be merged back 'upstream' to the original repository. 
