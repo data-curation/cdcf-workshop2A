@@ -17,10 +17,10 @@
 ## Step 0.3: Install Openrefine
 - Navigate to [this setup page](https://datacarpentry.org/openrefine-socialsci/setup.html) and follow instructions for installing the Openrefine software. **NOTE** that you do not need to download the data file, as we'll be retrieving it in the workshop session using GitHub.
 
-# In-class introduction
+# In-Class Activity
+## Introduction
 Follow along with the [introductory slides](https://docs.google.com/presentation/d/e/2PACX-1vRBTYQtYBdfn6CyA5Io-_UNdUNg-gN7yY8SOKESKpLOnhF2JsKyLJoslYBernz8OVcxtqpxRWi3iuRa/pub?start=false&loop=false&delayms=60000). 
 
-# In-class activity
 During today's workshop, you will accomplish the following tasks:  
 - Use GitHub to fork someone else’s project into your own GitHub repository
 - Use GitHub Desktop (GHD) and git to clone your repository to your local computer
@@ -78,17 +78,14 @@ On occasion, you may want to ask the maintainer of an 'upstream' branch to incor
 - Your pull request will now appear in the upstream repository's [list of requests](https://github.com/data-curation/cdcf-workshop2A/pulls). The owner of the upstream repository can now manage the merger of files (either automatically or manually). 
 
 ## For Linux users
-
 ### Step 1.0: Configuring your git account 
 Open up Git Bash and navigate to the desired directory for your repository
 - Set your name: ```git config --global user.name "John Doe"```
 - Set your email address: ```git config --global user.email johndoe@example.com```
 - Check your settings ```git config --list```
 See [git documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for more information.
-
 ### Step 1.1: Fork a GitHub repository
 In this step, you will 'fork' an existing (original) GitHub repository (belonging to someone else) to create a branch repository in your GitHub account. This allows you to create a copy of the original repository that you can modify as desired...and perhaps, allow your changes to be merged back 'upstream' to the original repository. 
-
 - Ensure that you are logged into your GitHub account.
 - Navigate to the workshop GitHub repository [https://github.com/data-curation/cdcf-workshop2A](https://github.com/data-curation/cdcf-workshop2A). 
 - Click the **Fork** button at the top of the repository--this will "fork" the repository and create a branch in your GitHub account. By default, it will use a similar URL naming convention to the original (i.e. https://github.com/<yourUsername>/cdcf-workshop2A).
@@ -153,4 +150,3 @@ Using Markdown in Github lets you create readme files that can use better format
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
-
