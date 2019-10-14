@@ -1,10 +1,10 @@
-## Introduction
+# Introduction
 
-## Step 0: Pre-event prepartion
-### 0.1: Install git version control software
+# Pre-event prepartion
+## Step 0.1: Install git version control software
 - Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system
   - For Windows, use [this download link](https://git-scm.com/download/win) and install using all of the default (recommended) options.
-### 0.2: Install and configure GitHub Desktop
+## Step 0.2: Install and configure GitHub Desktop
 - Navigate to [Github](https://github.com) and sign up for an account (if you don't already have one). 
 - After registering, sign in to your account.
 - Watch the short introductory video[What is GitHub?](https://www.youtube.com/watch?v=w3jLJU7DT5E).
@@ -14,8 +14,12 @@
   - In the *Configure Git* page, enter the name and email address that you want associated with your changes
   - In File > Options > Advanced, set the Shell to Git Bash
 - (optional) Once configured, the main GitHub Desktop page will show any repositories that exist in your GitHub account. For those who use git already, you can add any local repositories that already exist on your machine.
-### 0.3 Install Openrefine
+## Step 0.3: Install Openrefine
 - Navigate to [this setup page](https://datacarpentry.org/openrefine-socialsci/setup.html) and follow instructions for installing the Openrefine software. **NOTE** that you do not need to download the data file, as we'll be retrieving it in the workshop session using GitHub.
+
+# In-class introduction
+Follow along with the in-class introduction
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBTYQtYBdfn6CyA5Io-_UNdUNg-gN7yY8SOKESKpLOnhF2JsKyLJoslYBernz8OVcxtqpxRWi3iuRa/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Step 1: Forking a GitHub repository
 In this step, you will 'fork' an existing (original) GitHub repository (belonging to someone else) to create a branch repository in your GitHub account. This allows you to create a copy of the original repository that you can modify as desired...and perhaps, allow your changes to be merged back 'upstream' to the original repository. 
