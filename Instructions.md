@@ -24,14 +24,14 @@ Follow along with the [introductory slides](https://docs.google.com/presentation
 During today's workshop, you will accomplish the following tasks:  
 - Use GitHub to fork someone else’s project into your own GitHub repository
 - Use GitHub Desktop (GHD) and git to clone your repository to your local computer
-- Use Openrefine to clean some messy data, and export a processing script and refined data products
-- Edit the contents of the project locally (i.e. editing your Openrefine script(s))
+- Use Openrefine to clean some messy data, and edit the contents of your local repository (by exporting a processing script and refined data products to your working folder)
 - Add and commit your changes to your local git repository
 - Push your changes from your local computer to your GitHub repository using GHD
 - Edit content (i.e. Markdown files) using the GitHub web interface
 - Pull new changes back to your local repository
 - Initiate a ‘pull request’ to the original project repository
 
+![flowchart of workshop activities](https://github.com/data-curation/cdcf-workshop2A/blob/master/Overview.png?raw=true)
 
 
 ## Step 1: Forking a GitHub repository
