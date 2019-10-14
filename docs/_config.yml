@@ -4,5 +4,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+baseurl: "Instructions.md"
 include:
   - Instructions.md
