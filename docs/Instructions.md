@@ -3,7 +3,7 @@
 # Pre-event prepartion
 
 ## Step 0.1: Install git version control software
-- Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system
+- Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system.
   - For Windows, use [this download link](https://git-scm.com/download/win) and install using all of the default (recommended) options.
 
 ## Step 0.2: Install and configure GitHub Desktop
