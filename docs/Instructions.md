@@ -31,7 +31,7 @@ During today's workshop, you will accomplish the following tasks:
 - Pull new changes back to your local repository
 - Initiate a ‘pull request’ to the original project repository
 
-![flowchart of workshop activities](https://github.com/data-curation/cdcf-workshop2A/blob/master/Overview.png?raw=true)
+![flowchart of workshop activities](https://github.com/data-curation/cdcf-workshop2A/blob/master/docs/Overview.png?raw=true)
 
 ## For Windows and Mac users
 ### Step 1.1: Fork a GitHub repository
