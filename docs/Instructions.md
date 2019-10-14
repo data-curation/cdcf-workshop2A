@@ -1,9 +1,11 @@
 # Introduction
 
 # Pre-event prepartion
+
 ## Step 0.1: Install git version control software
 - Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system
   - For Windows, use [this download link](https://git-scm.com/download/win) and install using all of the default (recommended) options.
+
 ## Step 0.2: Install and configure GitHub Desktop
 - Navigate to [Github](https://github.com) and sign up for an account (if you don't already have one). 
 - After registering, sign in to your account.
@@ -14,6 +16,7 @@
   - In the *Configure Git* page, enter the name and email address that you want associated with your changes
   - In File > Options > Advanced, set the Shell to Git Bash
 - (optional) Once configured, the main GitHub Desktop page will show any repositories that exist in your GitHub account. For those who use git already, you can add any local repositories that already exist on your machine.
+
 ## Step 0.3: Install Openrefine
 - Navigate to [this setup page](https://datacarpentry.org/openrefine-socialsci/setup.html) and follow instructions for installing the Openrefine software. **NOTE** that you do not need to download the data file, as we'll be retrieving it in the workshop session using GitHub.
 
