@@ -1,5 +1,4 @@
 theme: jekyll-theme-slate
-title: CDCF Workshop: Wrangling and Versioning with OpenRefine and GitHub
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -7,3 +6,5 @@ relative_links:
   collections: true
 include:
   - Instructions.md
+
+title: CDCF Workshop: Wrangling and Versioning with OpenRefine and GitHub
