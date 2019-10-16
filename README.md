@@ -36,11 +36,11 @@ Links/relationships to ancillary or related data sets:
 --------------------
 # DATA & FILE OVERVIEW
 
-File list (filenames, directory structure (for zipped files) and brief description of all data files):
+File list (filenames, directory structure (for zipped files) and brief description of all data files): CSV File
 
-Relationship between files, if important for context:  
+Relationship between files, if important for context:  *Italic Relationship between files*
 
-Additional related data collected that was not included in the current data package:
+Additional related data collected that was not included in the current data package: **Bold additional information**
 
 If data was derived from another source, list source:
 
